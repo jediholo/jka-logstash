@@ -1,5 +1,5 @@
 # JKA logstash based on the official Logstash image, itself based on CentOS 7
-FROM docker.elastic.co/logstash/logstash:6.5.1
+FROM docker.elastic.co/logstash/logstash:6.5.2
 LABEL maintainer="Fabien Crespel <fabien@crespel.net>"
 
 # Stomp output plugin
